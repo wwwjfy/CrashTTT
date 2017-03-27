@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9ECFE48A596B723ACD7905CC /* Pods_CrashTTT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D845BD624A268D1EA38299C /* Pods_CrashTTT.framework */; };
+		EABF94921E88C96A005FEF0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABF94911E88C96A005FEF0B /* AppDelegate.swift */; };
+		EABF94941E88C96A005FEF0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABF94931E88C96A005FEF0B /* ViewController.swift */; };
+		EABF94971E88C96A005FEF0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EABF94951E88C96A005FEF0B /* Main.storyboard */; };
+		EABF94991E88C96A005FEF0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EABF94981E88C96A005FEF0B /* Assets.xcassets */; };
+		EABF949C1E88C96A005FEF0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EABF949A1E88C96A005FEF0B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1CDB3F6F5D7F835891FEFB47 /* Pods-CrashTTT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrashTTT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CrashTTT/Pods-CrashTTT.debug.xcconfig"; sourceTree = "<group>"; };
+		9D845BD624A268D1EA38299C /* Pods_CrashTTT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrashTTT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3CB5AECE6447968C290351B /* Pods-CrashTTT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrashTTT.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrashTTT/Pods-CrashTTT.release.xcconfig"; sourceTree = "<group>"; };
+		EABF948E1E88C96A005FEF0B /* CrashTTT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrashTTT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EABF94911E88C96A005FEF0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EABF94931E88C96A005FEF0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EABF94961E88C96A005FEF0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EABF94981E88C96A005FEF0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EABF949B1E88C96A005FEF0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EABF949D1E88C96A005FEF0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EABF948B1E88C96A005FEF0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ECFE48A596B723ACD7905CC /* Pods_CrashTTT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CC9B618ED643DE331009D7C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CDB3F6F5D7F835891FEFB47 /* Pods-CrashTTT.debug.xcconfig */,
+				C3CB5AECE6447968C290351B /* Pods-CrashTTT.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		52FE897924592EC47013AD43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D845BD624A268D1EA38299C /* Pods_CrashTTT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EABF94851E88C96A005FEF0B = {
+			isa = PBXGroup;
+			children = (
+				EABF94901E88C96A005FEF0B /* CrashTTT */,
+				EABF948F1E88C96A005FEF0B /* Products */,
+				2CC9B618ED643DE331009D7C /* Pods */,
+				52FE897924592EC47013AD43 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EABF948F1E88C96A005FEF0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EABF948E1E88C96A005FEF0B /* CrashTTT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EABF94901E88C96A005FEF0B /* CrashTTT */ = {
+			isa = PBXGroup;
+			children = (
+				EABF94911E88C96A005FEF0B /* AppDelegate.swift */,
+				EABF94931E88C96A005FEF0B /* ViewController.swift */,
+				EABF94951E88C96A005FEF0B /* Main.storyboard */,
+				EABF94981E88C96A005FEF0B /* Assets.xcassets */,
+				EABF949A1E88C96A005FEF0B /* LaunchScreen.storyboard */,
+				EABF949D1E88C96A005FEF0B /* Info.plist */,
+			);
+			path = CrashTTT;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EABF948D1E88C96A005FEF0B /* CrashTTT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EABF94A01E88C96A005FEF0B /* Build configuration list for PBXNativeTarget "CrashTTT" */;
+			buildPhases = (
+				756C86B604371A5426C47D81 /* [CP] Check Pods Manifest.lock */,
+				EABF948A1E88C96A005FEF0B /* Sources */,
+				EABF948B1E88C96A005FEF0B /* Frameworks */,
+				EABF948C1E88C96A005FEF0B /* Resources */,
+				8E318DDCD53A6F6643A10BF9 /* [CP] Embed Pods Frameworks */,
+				1EF593F40C1EA29B2C9DC120 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrashTTT;
+			productName = CrashTTT;
+			productReference = EABF948E1E88C96A005FEF0B /* CrashTTT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EABF94861E88C96A005FEF0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				TargetAttributes = {
+					EABF948D1E88C96A005FEF0B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 93RF9AKSH8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EABF94891E88C96A005FEF0B /* Build configuration list for PBXProject "CrashTTT" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EABF94851E88C96A005FEF0B;
+			productRefGroup = EABF948F1E88C96A005FEF0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EABF948D1E88C96A005FEF0B /* CrashTTT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EABF948C1E88C96A005FEF0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EABF949C1E88C96A005FEF0B /* LaunchScreen.storyboard in Resources */,
+				EABF94991E88C96A005FEF0B /* Assets.xcassets in Resources */,
+				EABF94971E88C96A005FEF0B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EF593F40C1EA29B2C9DC120 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrashTTT/Pods-CrashTTT-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		756C86B604371A5426C47D81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8E318DDCD53A6F6643A10BF9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrashTTT/Pods-CrashTTT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EABF948A1E88C96A005FEF0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EABF94941E88C96A005FEF0B /* ViewController.swift in Sources */,
+				EABF94921E88C96A005FEF0B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EABF94951E88C96A005FEF0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EABF94961E88C96A005FEF0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EABF949A1E88C96A005FEF0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EABF949B1E88C96A005FEF0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EABF949E1E88C96A005FEF0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EABF949F1E88C96A005FEF0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EABF94A11E88C96A005FEF0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CDB3F6F5D7F835891FEFB47 /* Pods-CrashTTT.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 93RF9AKSH8;
+				INFOPLIST_FILE = CrashTTT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.wwwjfy.CrashTTT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EABF94A21E88C96A005FEF0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3CB5AECE6447968C290351B /* Pods-CrashTTT.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 93RF9AKSH8;
+				INFOPLIST_FILE = CrashTTT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.wwwjfy.CrashTTT;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EABF94891E88C96A005FEF0B /* Build configuration list for PBXProject "CrashTTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EABF949E1E88C96A005FEF0B /* Debug */,
+				EABF949F1E88C96A005FEF0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EABF94A01E88C96A005FEF0B /* Build configuration list for PBXNativeTarget "CrashTTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EABF94A11E88C96A005FEF0B /* Debug */,
+				EABF94A21E88C96A005FEF0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EABF94861E88C96A005FEF0B /* Project object */;
+}
